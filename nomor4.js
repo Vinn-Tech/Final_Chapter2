@@ -25,22 +25,8 @@ const dataPenjualanPakAldi = [
     }
 ]
 
-//Looping for sum
-// hitungPenjualan=(dataPenjualan)=>{
-//     if(typeof(dataPenjualan) !== 'object'){
-//         console.log("ERROR : Invalid Input")
-//     }
-//     else if (typeof(dataPenjualan === 'object')){
-//     let hasil = 0
-//     for (let i = 0; i < dataPenjualan.length; i++) {
-//         hasil += dataPenjualan[i].totalTerjual
-//     }
-//     console.log("Hasil Penjualan = ", hasil) 
-// }
-// }
-
 //mapping for sum
-hitungPenjualan=(dataPenjualan)=>{
+getTotalPenjualan=(dataPenjualan)=>{
     if(typeof(dataPenjualan) !== 'object'){
         console.log("ERROR : Invalid Input")
     }
@@ -54,4 +40,4 @@ hitungPenjualan=(dataPenjualan)=>{
     }
 }
 
-hitungPenjualan(dataPenjualanPakAldi)
+getTotalPenjualan(dataPenjualanPakAldi)
