@@ -14,7 +14,7 @@ checktypeNumber=(givenNumber)=>{
     }
 }
 }
-console.log(checktypeNumber())
+console.log(checktypeNumber(2000))
 // console.log(checktypeNumber("3")) //Akan menghasilkan output Error : Invalid input
 // console.log(checktypeNumber({})) //Akan menghasilkan output Error : Invalid input
 // console.log(checktypeNumber([])) //Akan menghasilkan output Error : Invalid input
