@@ -37,7 +37,7 @@ const dataPenjualanNovel = [
   },
 ];
 
-// Menggunakan library JavaScript untuk format rupiah otomatis
+// Menggunakan library JavaScript Intl.NumberFormat untuk format rupiah otomatis
 let rupiahFormat = new Intl.NumberFormat('id-ID', {
   style: 'currency',
   currency: 'IDR',
